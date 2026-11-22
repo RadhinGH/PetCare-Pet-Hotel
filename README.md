@@ -5,7 +5,6 @@ Aplikasi desktop berbasis **Java Swing** dan **SQLite** untuk mengelola penitipa
 - **Bahasa & UI**: Java (Swing + Java 2D Custom Painting)
 - **Database**: SQLite (embedded lokal `pethotel.db`, tanpa server terpisah)
 - **Keamanan Password**: Hash SHA-256 (`MessageDigest`)
-- **Dokumentasi Arsitektur**: Lihat [DOKUMENTASI_KODE.md](DOKUMENTASI_KODE.md)
 
 ---
 
