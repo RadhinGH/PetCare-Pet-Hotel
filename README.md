@@ -48,9 +48,7 @@ Data awal otomatis dibuat saat aplikasi pertama kali dijalankan dari [`src/db/pe
 | Peran | Username | Password |
 |---|---|---|
 | Admin | `admin` | `admin123` |
-| Resepsionis | `resepsionis` | `resepsionis123` |
 | Pelanggan 1 | `pelanggan1` | `pelanggan123` |
-| Pelanggan 2 | `pelanggan2` | `pelanggan123` |
 
 ---
 
