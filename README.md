@@ -1,6 +1,6 @@
 # 🐾 PetCare — Sistem Informasi Pet Care & Pet Hotel
 
-Aplikasi desktop berbasis **Java Swing** dan **SQLite** untuk mengelola penitipan (*boarding*) dan perawatan (*grooming*) hewan peliharaan. Dibuat sebagai **Tugas Besar Pemrograman Berorientasi Objek (SYS61516)** dengan arsitektur berlapis (`model`, `dao`, `view`, `view_need`, `util`, `db`) dan antarmuka kustom bertema pastel.
+Aplikasi desktop berbasis **Java Swing** dan **SQLite** untuk mengelola penitipan (*boarding*) dan perawatan (*grooming*) hewan peliharaan. Dibuat sebagai **Tugas Besar Pemrograman Berorientasi Objek (SYS61516)**.
 
 - **Bahasa & UI**: Java (Swing + Java 2D Custom Painting)
 - **Database**: SQLite (embedded lokal `pethotel.db`, tanpa server terpisah)
