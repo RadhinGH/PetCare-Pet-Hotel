@@ -93,10 +93,11 @@ Untuk penjelasan lengkap konsep OOP, alur database, hingga detail kode tiap berk
 
 ## 📸 Screenshot
 
-> *Tips:* Simpan gambar tangkapan layar aplikasi ke folder `screenshots/` (misalnya `screenshots/login.png`, `screenshots/layanan.png`, `screenshots/laporan.png`) lalu tampilkan di sini:
->
-> ```markdown
-> ![Layar Login](screenshots/login.png)
-> ![Halaman Layanan](screenshots/layanan.png)
-> ![Laporan Pendapatan](screenshots/laporan.png)
-> ```
+### Layar Login
+![Layar Login](screenshot/LoginFrame.png)
+
+### Tampilan Admin
+![UI Admin](screenshot/AdminInterface.png)
+
+### Laporan Pendapatan
+![Laporan Pendapatan](screenshot/Profits.png)
