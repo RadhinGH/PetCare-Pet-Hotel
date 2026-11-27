@@ -7,6 +7,7 @@ import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridBagLayout;
 import java.awt.Window;
+import java.text.Normalizer;
 import javax.swing.BorderFactory;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
@@ -107,6 +108,7 @@ public class HewanFormDialog extends view_need.PinkDialog {
         FormBantu.tambahBaris(form, 4, "BERAT (KG)", kotakBerat);
         FormBantu.tambahBaris(form, 5, "NAMA PEMILIK", kotakPemilik);
         FormBantu.tambahBaris(form, 6, "TELEPON PEMILIK", kotakTelepon);
+
         return form;
     }
 

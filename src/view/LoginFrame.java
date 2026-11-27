@@ -14,15 +14,7 @@ import util.ImageLoader;
 import util.ToasterPopOut;
 import view_need.*;
 
-/**
- * Layar LOGIN.
- * Semua yang tampil di layar ini dibuat di file ini:
- * jendela (JFrame), latar (JPanel), kartu putih (JPanel),
- * tulisan (JLabel), kotak isian (JTextField), dan tombol (JButton).
- */
-
 public class LoginFrame extends JFrame {
-
 
     private JTextField kotakUsername;
     private JPasswordField kotakPassword;

@@ -28,9 +28,7 @@ public class Kucing extends Hewan {
         return steril;
     }
 
-    public void setSteril(boolean steril) {
-        this.steril = steril;
-    }
+    public void setSteril(boolean steril) { this.steril = steril;}
 
     @Override
     public String getJenis() {

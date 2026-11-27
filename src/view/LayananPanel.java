@@ -102,7 +102,7 @@ public class LayananPanel extends JPanel {
     // ----- tampilan -----
 
     private JPanel bangunAtas() {
-        String teksJudul = user.isPelanggan() ? "Layanan Saya" : "Layanan & Penitipan";
+        String teksJudul = user.isPelanggan() ? "Layanan Kami" : "Layanan & Penitipan";
         String teksSub = user.isPelanggan()
                 ? "Pesan layanan, pantau status perawatan, dan unduh struk tagihan Anda"
                 : "Grooming, boarding, tracking status, dan tagihan";

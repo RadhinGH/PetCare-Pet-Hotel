@@ -17,7 +17,6 @@ public class ImageLoader {
         }
 
         // 1. lewat classpath /resources/
-
         URL url = ImageLoader.class.getResource("/resources/kucing.png");
         if (url != null) {
             cacheKucing = new ImageIcon(url).getImage();
@@ -25,7 +24,6 @@ public class ImageLoader {
         }
 
         // 2) jalankan lewat terminal dari folder proyek: ./resources/kucing.png
-
         File file = new File("resources/kucing.png");
         if (file.exists()) {
             cacheKucing = new ImageIcon(file.getAbsolutePath()).getImage();

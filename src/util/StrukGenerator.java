@@ -25,6 +25,7 @@ import view_need.PawPainter;
  * Membuat gambar struk pembayaran sederhana bertema PetCare (PNG).
  * Hanya memakai Java 2D bawaan JDK tanpa library tambahan.
  */
+
 public final class StrukGenerator {
 
     private static final int LEBAR = 500;
@@ -39,7 +40,6 @@ public final class StrukGenerator {
         List<BarisTagihan> rincian = layanan.rincianTagihan();
         boolean lunas = layanan.isLunas();
         int tinggi = (lunas ? 626 : 520) + rincian.size() * 26;
-
         BufferedImage img = new BufferedImage(LEBAR, tinggi, BufferedImage.TYPE_INT_RGB);
         Graphics2D g = img.createGraphics();
         g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
@@ -54,7 +54,6 @@ public final class StrukGenerator {
         g.fillRoundRect(18, 16, LEBAR - 36, tinggi - 32, 24, 24);
         g.setColor(Theme.BORDER_FIELD);
         g.drawRoundRect(18, 16, LEBAR - 36, tinggi - 32, 24, 24);
-
         gambarHeader(g);
 
         int y = 142;

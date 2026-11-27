@@ -7,6 +7,7 @@ import java.util.List;
  * GroomingService dan BoardingService sama-sama memenuhi kontrak ini,
  * tetapi cara menghitungnya berbeda (polymorphism).
  */
+
 public interface Tagihan {
 
     double hitungTotalBiaya();
